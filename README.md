@@ -1,6 +1,6 @@
 # Restaurant-Management-Database
 # 📝 Overview
-This project is a Restaurant Management Database designed to streamline the operations of a restaurant. It includes tables for managing menu items, staff, customer orders, timesheets, and customer feedback. The database is built using PostgreSQL and incorporates triggers for automated ID generation and data validation.
+This project is a Restaurant Management Database designed to streamline the operations of a restaurant. It includes tables for **managing menu items, staff, customer orders, timesheets, and customer feedback**. The database is built using **PostgreSQL** and incorporates triggers for automated ID generation and data validation.
 
 
 # ⚙️ Key Features
