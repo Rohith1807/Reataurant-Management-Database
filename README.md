@@ -1,5 +1,7 @@
-# Reataurant-Management-Database
-This project involves the creation of a Restaurant Management Database using PostgreSQL. The database is designed to streamline various aspects of restaurant operations, including menu management, staff scheduling, customer feedback, and sales tracking. The project was inspired by real-world observations at The View restaurant, where I work. The database aims to provide a robust and efficient system for managing restaurant activities.
+# Restaurant-Management-Database
+# Overview
+This project is a Restaurant Management Database designed to streamline the operations of a restaurant. It includes tables for managing menu items, staff, customer orders, timesheets, and customer feedback. The database is built using PostgreSQL and incorporates triggers for automated ID generation and data validation.
+
 
 # Key Features
 1. **Core Functionality:**
@@ -17,20 +19,12 @@ This project involves the creation of a Restaurant Management Database using Pos
 - **Cascading**: Ensures data consistency by automatically updating or deleting related records.
 
 # Tables Included
-- **restaurant**: Stores restaurant details, including the restaurant name.
-
-section: Manages different sections of the restaurant (e.g., Pizza, Burgers).
-
-menu_items: Tracks menu items, including names, descriptions, prices, and associated sections.
-
-job_titles: Stores job titles for staff (e.g., Chef, Supervisor).
-
-staff: Manages staff details, including roles, working hours, and salaries.
-
-timesheet: Tracks staff working hours, attendance, and status.
-
-customer_orders: Records customer orders, including order details and payment methods.
-
-order_items: Links customer orders to menu items and tracks quantities.
-
-customer_feedback: Collects and manages customer reviews, ratings, and comments.
+- `restaurant`: Stores restaurant details, including the restaurant name.
+- `section`: Manages different sections of the restaurant (e.g., Pizza, Burgers).
+- `menu_items`: Tracks menu items, including names, descriptions, prices, and associated sections.
+- `job_titles`: Stores job titles for staff (e.g., Chef, Supervisor).
+- `staff`: Manages staff details, including roles, working hours, and salaries.
+- `timesheet`: Tracks staff working hours, attendance, and status.
+- `customers_orders`: Records customer orders, including order details and payment methods.
+- `order_items`: Links customer orders to menu items and tracks quantities.
+- `customer_feedback`: Collects and manages customer reviews, ratings, and comments.
